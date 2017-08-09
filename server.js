@@ -6,11 +6,6 @@ var fs = require('fs');
 var bodyParser = require('body-parser');
 var routes = require('./api/routes/apiroutes');
 
-//SSL key
-var options = {
-	key: fs.readFileSync('./key.pem'),
-	cert: fs.readFileSync('./cert.pem')
-};
 
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
