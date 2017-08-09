@@ -1,0 +1,24 @@
+{
+  "name": "ebaytrendingapi",
+  "version": "1.0.0",
+  "description": "API to expose Trending eBay API as secure connection",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "ebay",
+    "trending",
+    "ai"
+  ],
+  "author": "dvairavel@ebay.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
